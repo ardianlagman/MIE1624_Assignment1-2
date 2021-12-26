@@ -12,3 +12,5 @@ Assignemnt 1
 
 Assignment 2
 - Goal of assignment 2 is to create an ordinal logistic regression with 10-fold cross-validation
+
+Findings resulted that education level (e.g. Bachelor, Master, Doctorate) do have a statistically significant difference in relation to salary levels. In addition, an ordinal logistic regression model achieved a poor accuracy of 0.418 and F1 score of 0.418. Inspection of the results show that the data was skewed towards one specific label, and the model was merely predicting that one label. These results are an indication that the model is inappropriate to tackle the data imbalance. 
